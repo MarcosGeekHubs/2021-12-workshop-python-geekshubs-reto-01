@@ -1,3 +1,4 @@
 .pytest_cache/
 virtualenv/
 src/Testing_with_PytTest.egg-info
+.venv/
