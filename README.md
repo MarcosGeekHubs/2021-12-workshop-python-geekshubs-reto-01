@@ -4,6 +4,8 @@
 
 ## Superhero Assistant Challenge
 
+$$
+
 Welcome to the ***challenge 1***, due to the increase in crime in our city the local superhero needs to reinforce his team with an assistant.
 
 For this reason, an interview must be carried out with 5 possible candidates. The following properties will be valued for each of them:
