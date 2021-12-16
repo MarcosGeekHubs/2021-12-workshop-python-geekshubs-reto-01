@@ -13,10 +13,10 @@ class superHero:
             self.power = 1024
         else:
             self.power = power
-            
-        self.realName = secretName
+
+        self.secretName = secretName
         self.city = city
-        self.base = location
+        self.location = location
 
     def maxPower(self, newPower):
         if newPower < 1024:
