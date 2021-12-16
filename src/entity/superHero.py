@@ -7,10 +7,23 @@ class superHero:
     """
     def __init__(self, name, power, secretName, city, location):
         self.name = name
-        self.power = power
+
+        if power < 1024:
+            print('Invalid amount of power, power has set to 1024')
+            self.power = 1024
+        else:
+            self.power = power
+            
         self.realName = secretName
         self.city = city
         self.base = location
 
-    def maxPower(sel0, power):
-        power = power + 200
+    def maxPower(self, newPower):
+        if newPower < 1024:
+            print('maxPower has to be >= 1024')
+        else:
+            self.power = newPower
+    
+
+
+    
