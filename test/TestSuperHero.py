@@ -1,5 +1,5 @@
 import unittest
-from entity.superHero import superHero
+from src.entity.superHero import superHero
 
 class TestSuperHero(unittest.TestCase):
 
